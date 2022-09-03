@@ -1,0 +1,87 @@
+#container {
+    width: 100% !important;
+    padding: 25px;
+}
+
+.tagFilterActionDiv {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.actionButton {
+    margin-right: 0.75% !important;
+    font-size: 1.5rem;
+}
+
+.tagsWrapperDiv {
+    margin-top: 25px;
+    max-height: 30vh;
+    overflow: auto;
+}
+
+.filterButton {
+    margin: 0.65% !important;
+    max-width: 95%;
+    width: fit-content;
+    text-align: left;
+    border: 1.5px solid white;
+    padding: 8px;
+    border-radius: 15px;
+    background-color:#7ed3d6;
+    color: white;
+
+    overflow-wrap: break-word;
+}
+
+.filterButton:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.filterButtonSelected {
+    margin: 0.65% !important;
+    width: fit-content;
+    max-width: 95%;
+    text-align: left;
+    border: 1.5px solid white;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: #9c9c9c;
+    color: white;
+
+    overflow-wrap: break-word;
+}
+
+@media (hover: hover) {
+
+    .filterButton:hover{
+        background-color: #7ed3d6;
+        opacity: 90%;
+    }
+    
+    .filterButtonSelected:hover{
+        background-color: #9c9c9c;
+        opacity: 90%;
+    }
+}
+
+
+.filterButtonSelected:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+.inputWrapper {
+    display: flex;
+    width: 100%;
+}
+
+.filterInput {
+    flex: 1 1 auto;
+}
+
+.error_msg {
+    color: red;
+}
