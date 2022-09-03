@@ -236,7 +236,7 @@ Admins can edit other user’s privileges by selecting their avatar. Admins can 
 
 ## 4. Deployment Instructions 
 
-GitHub link: [https://github.com/Font-Of-Life/Mock-SNS-Timely](https://github.com/Font-Of-Life/Mock-SNS-Timely)
+GitHub link: [https://github.com/Font-Of-Life/Timely](https://github.com/Font-Of-Life/Timely)
 
 Step by Step instructions for launching Timely @ localhost:
 
@@ -255,7 +255,7 @@ You can download either:
 Through “git clone” command from terminal:
 <p>
 
-        git clone https://github.com/Font-Of-Life/Mock-SNS-Timely.git
+        git clone https://github.com/Font-Of-Life/Timely.git
 <ol>
 
 Or downloading the project as a zip file from the GitHub repo:
